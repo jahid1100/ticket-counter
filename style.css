@@ -1,0 +1,594 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+
+.ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+
+
+#bus{
+    display: flex;
+    align-items: center;
+    background-color: #c8ecc5ae;
+    color: rgb(23, 236, 33);
+}
+
+#bus:hover{
+    background-color: #00870b;
+}
+
+
+#bus img{
+    margin-left: 10px;
+}
+
+#banner{
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100vw;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.div2-inner {
+    display: grid;
+    place-items: center;
+    width: 742px;
+    height: 345px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+
+.banner-h1{
+    color: white;
+    font-size: 45px;
+    flex-wrap: wrap;
+    font-weight: bolder;
+}
+.span2{
+    color: rgb(23, 236, 33);
+}
+
+.banner-para{
+    color: #ffffff;
+}
+
+
+
+.second-btn{
+    background-color: rgb(23, 236, 33);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.div2-inner h1, .div2-inner p, .div2-inner button{
+    text-align: center; 
+    word-wrap: break-word; 
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: -70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.little-banner{
+    display: flex;
+    background-color: #fff;
+    width: 300px;
+    height: 138px;
+    align-items: center;
+    align-content: center;
+    border-radius: 20px;
+    border-bottom: 5px solid #03ff31;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.second-header{
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+}
+
+.offers{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.cupon-15{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffae00;
+    padding: 35px;
+    align-items: center;
+    border-radius:25px;
+    width: 42vw;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+}
+
+.cupon-20{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d15252;
+    padding: 35px;
+    align-items: center;
+    border-radius:25px;
+    width: 42vw;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+
+
+.separator{
+    background-image: url(./images/cupon-devider.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    padding: 15px;
+    width: 25px;
+    height: 170px;
+}
+
+
+.main-area{
+    border-top: 3px solid #03ff31;
+    border-radius: 40px 40px 0 0;
+    -webkit-border-radius: 40px 40px 0 0;
+    -moz-border-radius: 40px 40px 0 0;
+    -ms-border-radius: 40px 40px 0 0;
+    -o-border-radius: 40px 40px 0 0;
+}
+
+
+.main-inner {
+    place-items: center;
+    width: 742px;
+    height: 260px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: auto;
+}
+
+
+.ticket-section{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.main-inner-div1{
+    padding: 30px;
+}
+
+.main-inner-div2{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+
+
+
+.main-inner-div3{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.main-inner-div4{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    gap: 15px;
+    width: 15vw;
+    border-radius: 10px;
+    background-color: #00ff2f3e;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+    
+.seat-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00ff08;
+}
+
+.seat-left h5{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-inner-div2-1{
+    background-color: #d5d0d0af;
+    border-radius: 20px;
+    padding: 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.line-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px dashed gray;
+}
+.line-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px dashed gray;
+}
+.line-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 15px;
+}
+.line-3-inner{
+    background-color: #a8a2a2;
+    border-radius: 10px;
+    padding: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.main-inner-div1-2{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.ticket-counter{
+    display: flex;
+    gap: 40px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+#success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-wrap: break-word;
+    margin: auto;
+    width: 50vw;
+    height: 22.5vw;
+    justify-content: center;
+    text-align: center;
+    display: none;
+}
+
+.seats-display{
+    padding: 40px;
+}
+
+
+#seat-section{
+    width: 45vw;
+}
+
+.seat-show{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    border-top: 2px dashed gray;
+    border-bottom: 2px dashed gray;
+}
+
+.available{
+    display: flex;
+    gap: 10px;
+}
+.selected{
+    display: flex;
+    gap: 10px;
+}
+
+.stiaring{
+    display: flex;
+    margin-left: 41vw;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 50px;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+.a-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bus-seats{
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.seats-buy{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 35vw;
+    margin-bottom: 50px;
+}
+
+.seats-buy h3 b {
+    margin-bottom: 35px !important;
+}
+
+.seat-num{
+    height: 20px;
+    width: 25px;
+    color: white;
+    background-color: #00ff08;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.ticket-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seat-num-div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.coupon-submission{
+    width: 30vw;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.coupon-submission-headers{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ticket-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+#total-discount{
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+#take-coupon{
+    display: none;
+}
+
+.coupon-area{
+    display: flex;
+    width: 27.5vw;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.coupon-input{
+    flex: 1;
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #444;
+}
+
+.apply{
+    background-color: #00ff08;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.passenger-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30vw;
+    margin: 0 ;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+
+#confirm{
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a{
+    color: #444;
+    font-size: 14px;
+}
+footer{
+    color: white;
+}
+
+.footer{
+    height: 400px;
+    align-items: center;
+    padding: 4rem;
+}
+
+.footer-div{
+    margin-top: 60px !important;
+}
+
+.footer-div-inner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dashed gray;
+}
+
+
+/* .description{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.playstore-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.last-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.last-div a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
